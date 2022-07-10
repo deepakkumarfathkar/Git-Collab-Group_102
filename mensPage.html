@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Mens</title>
+        <style>
+            #contanier{
+                height: 600px;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+            #contanier>.child{
+                height: 600px;
+                width: 45%;
+            }
+            #contanier>.child>.child1{
+                height: 70%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #contanier>.child>.child2{
+                height: 30%;
+                width: 100%;
+                text-align: left;
+            }
+            #contanier>.child>.child2>h1{
+                font-size: 30px;
+                padding-top: -5px;
+                font-weight: bold;
+            }
+            #contanier>.child>.child2>h2{
+                font-size: 30px;
+                font-weight: lighter;
+                margin-top: -10px;
+                color: rgb(102, 97, 97);
+            }
+            .price{
+                display: flex;
+                gap: 20px;
+                font-size: 30px;
+                margin-top: -10px;
+            }
+            .price>div:nth-child(1){
+                font-weight: bold;
+            }
+            .price>div:nth-child(2){
+                text-decoration: line-through;
+                color: rgb(102, 97, 97);
+            }
+            .price>div:nth-child(3){
+                color: rgb(6, 167, 6);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contanier">
+            <div class="child">
+                <div class="child1">
+                    <img src="https://rukminim1.flixcart.com/image/332/398/jf9zxjk0/shrug/y/d/y/xxl-pasrg03181192-blk-pause-original-imaf3scthzumcghm.jpeg?q=50" alt="image 1">
+                </div>
+                <div class="child2">
+                    <h1>Pause</h1>
+                    <h2>Men Cotton Long Sleeves Shrug</h2>
+                <div class="price">
+                    <div>₹359</div>
+                    <div>₹1,499</div>
+                    <div>-76%</div>
+                </div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=282&impolicy=hq" alt="image 2">
+                </div>
+                <div class="child2">
+                    <h1>JUBINATION</h1>
+                    <h2>Men Wool Sleeveless Sweater Pack Of 1</h2>
+                    <div class="price">
+                        <div>₹799</div>
+                        <div>₹1,499</div>
+                        <div>-47%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
