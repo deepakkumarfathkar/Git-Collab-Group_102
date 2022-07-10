@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Women</title>
+        <style>
+            #contanier{
+                height: auto;
+                width: 80%;
+                display: flex;
+                margin: auto;
+                justify-content: space-between;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                gap: 50px;
+                /* border: 1px solid red; */
+            }
+            #contanier>.child{
+                height: auto;
+                width: 95%;
+                text-align: center;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                /* border: 1px solid green; */
+            }
+            #contanier>.child>.child1>img{
+                width: 100%;
+                height: 50%;
+                /* border: 1px solid red; */
+            }
+            #contanier>.child>.child1{
+                height: auto;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #contanier>.child>.child2{
+                height: auto;
+                width: 100%;
+                /* text-align: left; */
+            }
+            #contanier>.child>.child2>h1{
+                font-size: 30px;
+                padding-top: -5px;
+                font-weight: bold;
+            }
+            #contanier>.child>.child2>h2{
+                font-size: 30px;
+                font-weight: lighter;
+                margin-top: -10px;
+                color: rgb(102, 97, 97);
+            }
+            .price{
+                display: flex;
+                gap: 20px;
+                font-size: 30px;
+                margin-top: -10px;
+                justify-content: center;
+            }
+            .price>div:nth-child(1){
+                font-weight: bold;
+            }
+            .price>div:nth-child(2){
+                text-decoration: line-through;
+                color: rgb(102, 97, 97);
+            }
+            .price>div:nth-child(3){
+                color: rgb(6, 167, 6);
+            } 
+        </style>
+    </head>
+    <body>
+        <div id="contanier">
+            <div class="child">
+                <div class="child1">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20210701/HhQ0/60dce948f997ddb312165abd/kurtipedia_maroon_floral_print_straight_kurta_set.jpg" alt="image 1">
+                </div>
+                <div class="child2">
+                    <h1>Kurtipedia</h1>
+                    <h2>Printed Straight Kurta Set</h2>
+                <div class="price">
+                    <div>₹359</div>
+                    <div>₹1,499</div>
+                    <div>-76%</div>
+                </div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20220303/53WY/6220a87faeb26921afc59594/bitterlime_white_solid_a-line_kurta_set.jpg" alt="image 2">
+                </div>
+                <div class="child2">
+                    <h1>Kurtipedia</h1>
+                    <h2>Floral Printed Straight Kurta Set</h2>
+                    <div class="price">
+                        <div>₹799</div>
+                        <div>₹1,499</div>
+                        <div>-47%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
